@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 import json
 
 TICKERS = ["CMIG4",
-            "ISAE4",
             "BBSE3",
             "TAEE11",
             "BBAS3",
@@ -12,15 +11,11 @@ TICKERS = ["CMIG4",
             "ITSA4",
             "BBDC4",
             "CPLE6",
-            "CSNA3",
             "PETR4",
             "POMO4",
             "CURY3",
-            "CPFE3",
-            "GOAU4",
             "BRAP4",
             "VALE3",
-            "TIMS3",
             "CMIN3",
             "MRFG3",
             "CXSE3",
@@ -44,12 +39,19 @@ options.headless = True
 driver = webdriver.Chrome(options=options)
 
 for ticker in TICKERS:
-    driver.get(f"https://finance.yahoo.com/quote/{ticker}.SA/key-statistics")
+    driver.get(f"https://statusinvest.com.br/acoes/{ticker}")
+    
     try:
-        element = driver.find_element(By.XPATH, '//td[text()="Book Value Per Share"]/following-sibling::td')
-        cache[ticker] = element.text
+        vpa = driver.find_element(By.XPATH, '//*[@id="indicators-section"]/div[2]/div/div[1]/div/div[9]/div/div/strong').text
     except:
-        cache[ticker] = "Não encontrado"
+        vpa = "Nao encontrado"
+
+    try:
+        dy = driver.find_element(By.XPATH, '//*[@id="indicators-section"]/div[2]/div/div[1]/div/div[1]/div/div/strong').text
+    except:
+        dy = "Não encontrado"
+    
+    cache[ticker] = {"VPA": vpa, "Div Yeld": dy}
 
 driver.quit()
 
