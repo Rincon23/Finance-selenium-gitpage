@@ -50,8 +50,15 @@ for ticker in TICKERS:
         dy = driver.find_element(By.XPATH, '//*[@id="indicators-section"]/div[2]/div/div[1]/div/div[1]/div/div/strong').text
     except:
         dy = "Não encontrado"
+
+    try:
+        lpa = driver.find_element(By.XPATH, '//*[@id="indicators-section"]/div[2]/div/div[1]/div/div[11]/div/div/strong').text
+    except:
+        lpa = "Não encontrado"
+
+
     
-    cache[ticker] = {"VPA": vpa, "Div Yeld": dy}
+    cache[ticker] = {"LPA": lpa,"VPA": vpa, "Div Yeld": dy}
 
 driver.quit()
 
