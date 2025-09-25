@@ -3,7 +3,38 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import json
 
-TICKERS = ["BBAS3", "ITSA3", "PETR4"]
+TICKERS = ["CMIG4",
+            "ISAE4",
+            "BBSE3",
+            "TAEE11",
+            "BBAS3",
+            "DIRR3",
+            "ITSA4",
+            "BBDC4",
+            "CPLE6",
+            "CSNA3",
+            "PETR4",
+            "POMO4",
+            "CURY3",
+            "CPFE3",
+            "GOAU4",
+            "BRAP4",
+            "VALE3",
+            "TIMS3",
+            "CMIN3",
+            "MRFG3",
+            "CXSE3",
+            "PSSA3",
+            "EQTL3",
+            "ABEV3",
+            "BBAS3",
+            "CPFE3",
+            "ITSA3",
+            "RADL3",
+            "B3SA3",
+            "BBSE3",
+            "WEGE3",
+            "EGIE3"]
 CACHE_FILE = "vpa_cache.json"
 cache = {}
 
