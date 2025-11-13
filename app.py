@@ -5,7 +5,7 @@ import json
 import time
 
 TICKERS = [
-    "SAPR3", "CMIG3", "CPFE3", "EGIE3", "ITUB3",
+    "SAPR3", "SBSP3", "CMIG3", "CPFE3", "EGIE3", "ITUB3", "BBDC3",
     "BBAS3", "BBSE3", "PSSA3", "B3SA3", "RADL3",
     "ODPV3", "WEGE3", "TGMA3", "ABEV3", "MDIA3",
     "SLCE3", "LEVE3", "VIVA3", "EZTC3", "VALE3",
