@@ -2,131 +2,131 @@
   "SAPR3": {
     "LPA": "0,94",
     "VPA": "7,96",
-    "Div Yeld": "5,65%"
+    "Div Yeld": "4,03%"
   },
   "SBSP3": {
     "LPA": "8,23",
     "VPA": "62,49",
-    "Div Yeld": "2,66%"
+    "Div Yeld": "4,77%"
   },
   "CMIG3": {
-    "LPA": "2,27",
-    "VPA": "9,95",
-    "Div Yeld": "6,86%"
+    "LPA": "1,40",
+    "VPA": "10,04",
+    "Div Yeld": "6,64%"
   },
   "CPFE3": {
-    "LPA": "4,69",
-    "VPA": "18,64",
-    "Div Yeld": "6,90%"
+    "LPA": "4,73",
+    "VPA": "19,67",
+    "Div Yeld": "5,24%"
   },
   "EGIE3": {
     "LPA": "5,28",
     "VPA": "15,08",
-    "Div Yeld": "4,71%"
+    "Div Yeld": "5,88%"
   },
   "ITUB3": {
     "LPA": "4,00",
     "VPA": "19,93",
-    "Div Yeld": "7,90%"
+    "Div Yeld": "13,02%"
   },
   "BBDC3": {
     "LPA": "1,69",
     "VPA": "16,58",
-    "Div Yeld": "7,65%"
+    "Div Yeld": "9,01%"
   },
   "BBAS3": {
-    "LPA": "2,77",
-    "VPA": "31,76",
-    "Div Yeld": "7,67%"
+    "LPA": "2,24",
+    "VPA": "31,78",
+    "Div Yeld": "5,40%"
   },
   "BBSE3": {
     "LPA": "4,39",
     "VPA": "6,43",
-    "Div Yeld": "12,75%"
+    "Div Yeld": "11,79%"
   },
   "PSSA3": {
     "LPA": "4,23",
     "VPA": "23,07",
-    "Div Yeld": "5,33%"
+    "Div Yeld": "5,36%"
   },
   "B3SA3": {
-    "LPA": "0,91",
-    "VPA": "3,75",
-    "Div Yeld": "1,93%"
+    "LPA": "0,92",
+    "VPA": "3,76",
+    "Div Yeld": "4,27%"
   },
   "ITSA3": {
     "LPA": "1,38",
     "VPA": "8,41",
-    "Div Yeld": "8,44%"
+    "Div Yeld": "14,32%"
   },
   "RADL3": {
     "LPA": "0,77",
     "VPA": "4,07",
-    "Div Yeld": "1,61%"
+    "Div Yeld": "1,92%"
   },
   "ODPV3": {
     "LPA": "0,98",
     "VPA": "2,36",
-    "Div Yeld": "6,24%"
+    "Div Yeld": "8,59%"
   },
   "WEGE3": {
     "LPA": "1,54",
     "VPA": "5,34",
-    "Div Yeld": "1,86%"
+    "Div Yeld": "4,20%"
   },
   "TGMA3": {
     "LPA": "4,02",
     "VPA": "14,91",
-    "Div Yeld": "7,58%"
+    "Div Yeld": "11,98%"
   },
   "ABEV3": {
     "LPA": "1,00",
     "VPA": "5,84",
-    "Div Yeld": "7,69%"
+    "Div Yeld": "8,04%"
   },
   "MDIA3": {
     "LPA": "2,18",
     "VPA": "24,50",
-    "Div Yeld": "2,95%"
+    "Div Yeld": "3,34%"
   },
   "SLCE3": {
     "LPA": "1,12",
     "VPA": "11,88",
-    "Div Yeld": "3,27%"
+    "Div Yeld": "10,18%"
   },
   "LEVE3": {
-    "LPA": "3,97",
-    "VPA": "5,45",
-    "Div Yeld": "6,28%"
+    "LPA": "4,30",
+    "VPA": "6,47",
+    "Div Yeld": "7,98%"
   },
   "VIVA3": {
     "LPA": "3,06",
     "VPA": "12,43",
-    "Div Yeld": "2,01%"
+    "Div Yeld": "4,08%"
   },
   "EZTC3": {
-    "LPA": "2,23",
-    "VPA": "22,70",
-    "Div Yeld": "2,79%"
+    "LPA": "2,46",
+    "VPA": "23,23",
+    "Div Yeld": "11,32%"
   },
   "VALE3": {
     "LPA": "7,23",
     "VPA": "48,06",
-    "Div Yeld": "6,93%"
+    "Div Yeld": "10,59%"
   },
   "CMIN3": {
     "LPA": "0,87",
     "VPA": "1,84",
-    "Div Yeld": "7,53%"
+    "Div Yeld": "9,59%"
   },
   "TIMS3": {
     "LPA": "1,47",
     "VPA": "10,41",
-    "Div Yeld": "6,50%"
+    "Div Yeld": "10,45%"
   },
   "PETR3": {
     "LPA": "2,85",
     "VPA": "32,81",
-    "Div Yeld": "10,59%"
+    "Div Yeld": "10,05%"
   }
 }
