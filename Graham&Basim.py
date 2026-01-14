@@ -49,7 +49,7 @@ for ticker in TICKERS:
     try:
         dy = driver.find_element(
             By.XPATH,
-            '//*[@id="indicators-section"]/div[2]/div/div[1]/div/div[11]/div/div/strong'
+            '//*[@id="indicators-section"]/div[2]/div/div[1]/div/div[1]/div/div/strong'
         ).text
     except:
         dy = "Não encontrado"
@@ -65,7 +65,7 @@ for ticker in TICKERS:
     try:
         vpa = driver.find_element(
             By.XPATH,
-            '//*[@id="indicators-section"]/div[2]/div/div[1]/div/div[11]/div/div/strong'
+            '//*[@id="indicators-section"]/div[2]/div/div[1]/div/div[9]/div/div/strong'
         ).text
     except:
         vpa = "Não encontrado"
