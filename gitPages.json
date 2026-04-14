@@ -8,37 +8,37 @@
     "SBSP3": {
       "LPA": "12,00",
       "VPA": "60,15",
-      "Div Yield": "4,25%"
+      "Div Yield": "4,27%"
     },
     "CMIG3": {
       "LPA": "1,71",
       "VPA": "9,99",
-      "Div Yield": "8,57%"
+      "Div Yield": "8,65%"
     },
     "CPFE3": {
       "LPA": "4,76",
       "VPA": "20,40",
-      "Div Yield": "4,99%"
+      "Div Yield": "4,98%"
     },
     "EGIE3": {
       "LPA": "2,26",
       "VPA": "12,18",
-      "Div Yield": "4,84%"
+      "Div Yield": "4,86%"
     },
     "ITUB3": {
       "LPA": "4,07",
       "VPA": "19,50",
-      "Div Yield": "6,81%"
+      "Div Yield": "6,84%"
     },
     "BBDC3": {
       "LPA": "2,26",
       "VPA": "16,89",
-      "Div Yield": "6,27%"
+      "Div Yield": "6,28%"
     },
     "BBAS3": {
       "LPA": "2,93",
       "VPA": "33,78",
-      "Div Yield": "3,28%"
+      "Div Yield": "3,29%"
     },
     "BBSE3": {
       "LPA": "4,64",
@@ -53,32 +53,32 @@
     "B3SA3": {
       "LPA": "0,91",
       "VPA": "3,46",
-      "Div Yield": "3,08%"
+      "Div Yield": "3,09%"
     },
     "ITSA3": {
       "LPA": "1,47",
       "VPA": "8,33",
-      "Div Yield": "8,39%"
+      "Div Yield": "8,40%"
     },
     "RADL3": {
       "LPA": "0,74",
       "VPA": "4,19",
-      "Div Yield": "1,94%"
+      "Div Yield": "1,93%"
     },
     "ODPV3": {
       "LPA": "1,07",
       "VPA": "2,35",
-      "Div Yield": "6,13%"
+      "Div Yield": "6,15%"
     },
     "WEGE3": {
       "LPA": "1,52",
       "VPA": "4,42",
-      "Div Yield": "4,15%"
+      "Div Yield": "4,18%"
     },
     "TGMA3": {
       "LPA": "3,68",
       "VPA": "13,22",
-      "Div Yield": "11,30%"
+      "Div Yield": "11,24%"
     },
     "ABEV3": {
       "LPA": "0,98",
@@ -98,27 +98,27 @@
     "LEVE3": {
       "LPA": "4,49",
       "VPA": "6,37",
-      "Div Yield": "7,34%"
+      "Div Yield": "7,30%"
     },
     "VIVA3": {
       "LPA": "2,62",
       "VPA": "12,49",
-      "Div Yield": "5,00%"
+      "Div Yield": "4,99%"
     },
     "EZTC3": {
       "LPA": "1,90",
       "VPA": "18,22",
-      "Div Yield": "8,94%"
+      "Div Yield": "8,93%"
     },
     "VALE3": {
       "LPA": "3,11",
       "VPA": "42,56",
-      "Div Yield": "6,21%"
+      "Div Yield": "6,22%"
     },
     "CMIN3": {
       "LPA": "0,30",
       "VPA": "1,23",
-      "Div Yield": "9,53%"
+      "Div Yield": "9,49%"
     },
     "TIMS3": {
       "LPA": "0,84",
@@ -128,12 +128,17 @@
     "PETR3": {
       "LPA": "8,54",
       "VPA": "32,40",
-      "Div Yield": "6,23%"
+      "Div Yield": "6,28%"
     },
     "KLBN3": {
       "LPA": "0,27",
       "VPA": "2,31",
-      "Div Yield": "8,54%"
+      "Div Yield": "8,52%"
+    },
+    "BPAC3": {
+      "LPA": "1,37",
+      "VPA": "6,00",
+      "Div Yield": "1,53%"
     }
   },
   "AUPO11": {

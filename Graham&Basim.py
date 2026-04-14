@@ -14,7 +14,7 @@ TICKERS = [
     "BBAS3", "BBSE3", "PSSA3", "B3SA3", "ITSA3", "RADL3",
     "ODPV3", "WEGE3", "TGMA3", "ABEV3", "MDIA3",
     "SLCE3", "LEVE3", "VIVA3", "EZTC3", "VALE3",
-    "CMIN3", "TIMS3", "PETR3", "KLBN3"
+    "CMIN3", "TIMS3", "PETR3", "KLBN3", "BPAC3"
 ]
 
 options = Options()
