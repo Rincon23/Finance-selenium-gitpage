@@ -6,14 +6,18 @@ import time
 import os
 import random
 
-PROGRAM_NAME = "AUPO11"
+PROGRAM_NAME = "FIIs"
 CACHE_FILE = "gitPages.json"
 
+FIIS = [
+    "HGLG11", "KNRI11", "HGRU11", "PMLL11"
+]
+
 options = Options()
-options.headless = False
+options.headless = True
 options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_argument(
-    "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 )
 
 def troca_ponto_por_virgula(valor):
@@ -28,31 +32,33 @@ if os.path.exists(CACHE_FILE):
 else:
     cache = {}
 
+cache.setdefault(PROGRAM_NAME, {})
+
 driver = webdriver.Chrome(options=options)
 
-url = "https://statusinvest.com.br/etfs/aupo11"
-driver.get(url)
+for fii in FIIS:
+    url = f"https://statusinvest.com.br/fundos-imobiliarios/{fii}"
+    driver.get(url)
 
-# Delay variável (anti-bot)
-time.sleep(random.uniform(3, 6))
+    time.sleep(random.uniform(3, 6))
 
-try:
-    ct = driver.find_element(
+    try:
+        pvp = driver.find_element(
         By.XPATH,
-        '//*[@id="main-2"]/div[1]/div[1]/div[1]/div/div[1]/strong'
-    ).text
-except:
-    ct = "Não encontrado"
+        '//*[@id="main-2"]/div[2]/div[5]/div/div[2]/div/div[1]/strong'
+        ).text
+    except:
+        pvp = "Não encontrado"
+
+    cache[PROGRAM_NAME][fii] = {
+        "P/VP": troca_ponto_por_virgula(pvp)
+    }
+
+    print(f'{fii} -> P/VP: {pvp}')
 
 driver.quit()
-
-ct = troca_ponto_por_virgula(ct)
-
-# ✅ SALVA SOMENTE NO BLOCO DO PROGRAMA
-cache.setdefault(PROGRAM_NAME, {})
-cache[PROGRAM_NAME]["Cota"] = ct
 
 with open(CACHE_FILE, "w", encoding="utf-8") as f:
     json.dump(cache, f, ensure_ascii=False, indent=2)
 
-print(f"Cache atualizado ({PROGRAM_NAME}):", cache[PROGRAM_NAME])
+print("Cache de FIIs atualizado!")
